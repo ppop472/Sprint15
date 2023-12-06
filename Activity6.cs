@@ -11,19 +11,18 @@ using System.Text;
 
 namespace DiscoveryMuseum
 {
-    [Activity(Label = "Activity2")]
-    public class Activity2 : Activity
+    [Activity(Label = "Activity6")]
+    public class Activity6 : Activity
     {
-
-        private Button tohomepage2;
+        private Button tohomepage6;
         protected override void OnCreate(Bundle savedInstanceState)
         {
-            SetContentView(Resource.Layout.layout2);
+            SetContentView(Resource.Layout.layout6);
             base.OnCreate(savedInstanceState);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
-            tohomepage2 = FindViewById<Button>(Resource.Id.tohomepage2);
-            tohomepage2.Click += test2;
+            tohomepage6 = FindViewById<Button>(Resource.Id.tohomepage6);
+            tohomepage6.Click += test2;
 
         }
 

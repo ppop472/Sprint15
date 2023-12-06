@@ -8,9 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Android.Content;
 
-namespace Sprint15
+namespace DiscoveryMuseum
 {
     [Activity(Label = "Activity1")]
     public class Activity1 : Activity
